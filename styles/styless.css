@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #261C51;
+}
+
+
+.main_container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1040px;
+    width: 100%;
+    margin: 14px 0;
+}
+
+
+
+.image_cont {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
+.navigation {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+   
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+body {
+    background: #07081A;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .navContainer {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1040px;
+      width: 100%;
+  }
+  
+
+  
+  .ulSection {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    list-style-type: none;
+  }
+  
+  li {
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .home {
+    color: #b968de;
+  }
+  
+  .headDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin: 88px 0;
+    max-width: 600px;
+    width: 100%;
+   
+  }
+  
+  h1 {
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .mainP {
+    color: white;
+    font-size: 16px;
+  }
+  
+  .purpleButton {
+    border-radius: 8px;
+    background: #9100d3;
+    padding: 12px 24px;
+    color: white;
+  }
+  
+  .logos {
+      display: flex;
+      max-width: 1040px;
+      width: 100%;
+      justify-content: space-around;
+      margin-bottom: 88px;
+      flex-wrap: wrap;
+  }
+  
+  .allBoxses {
+      display: flex;
+      gap: 64px;
+      margin-bottom: 84px;
+      flex-wrap: wrap;
+  }
+  
+  .box {
+      display: flex;
+      flex-direction: column;
+      max-width: 304px;
+      width: 100%;
+      gap: 16px;
+      color: white;
+      border-radius: 8px;
+      border: 1px solid #261C51;
+      padding: 16px 24px;
+  }
+  
+  h2 {
+      font-size: 21px;
+  }
+  
+  .boxP {
+      color: #C0C0C0;
+      font-size: 14px;
+  } 
+
+  footer {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #261C51;
+  }
+
+  .footerDiv {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1040px;
+    width: 100%;
+    margin: 14px 0;
+  }
+
+  .footerP {
+    color: #fff;
+  }
+
+  .Footerimages {
+    display: flex;
+    gap: 24px;
+  }
+
+
