@@ -16,7 +16,7 @@ header {
     justify-content: space-between;
     max-width: 1040px;
     width: 100%;
-    margin: 14px 0;
+    margin: 14px 0 0 0;
 }
 
 
@@ -105,6 +105,7 @@ main {
     background: #9100d3;
     padding: 12px 24px;
     color: white;
+    border: none;
   }
   
   .logos {
@@ -145,9 +146,11 @@ main {
   } 
 
   footer {
+    align-items: center;
     display: flex;
     justify-content: center;
     border-top: 1px solid #261C51;
+   
   }
 
   .footerDiv {
@@ -155,7 +158,9 @@ main {
     justify-content: space-between;
     max-width: 1040px;
     width: 100%;
-    margin: 14px 0;
+    align-items: center;
+    padding: 20px 0 0 0;
+   
   }
 
   .footerP {
